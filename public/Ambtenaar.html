@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>Ambtenaar</title>
+</head>
+<body>
+  <h1>Hallo Ambtenaar!</h1>
+
+  <h2>Nieuwe Burger toevoegen</h2>
+  <form id="BurgerForm">
+    <input type="text" name="Voornaam" placeholder="Voornaam" required>
+    <input type="text" name="Achternaam" placeholder="Achternaam" required>
+    <input type="date" name="Geboortedatum" required>
+    <input type="text" name="DNA_code" placeholder="DNA-code" required>
+    <input type="text" name="Familie_code" placeholder="Familiecode" required>
+    <button type="submit">Toevoegen</button>
+  </form>
+
+  <h2>Huwelijk registreren</h2>
+<form id="HuwelijkForm">
+  <input type="number" name="partner1_id" placeholder="ID Partner 1" required>
+  <input type="number" name="partner2_id" placeholder="ID Partner 2" required>
+  <input type="date" name="datum" required>
+  <button type="submit">Registreer Huwelijk</button>
+</form>
+
+<h2>Kind registreren</h2>
+<form id="KindForm">
+  <input type="number" name="ouder1_id" placeholder="Ouder 1 ID" required>
+  <input type="number" name="ouder2_id" placeholder="Ouder 2 ID" required>
+  <input type="text" name="voornaam" placeholder="Voornaam kind" required>
+  <input type="text" name="achternaam" placeholder="Achternaam kind" required>
+  <input type="date" name="geboortedatum" required>
+  <button type="submit">Registreer kind</button>
+</form>
+
+  <h2>Bestaande Burgers</h2>
+  <ul id="Burgers"></ul>
+
+  <script src="ambtenaar.js"></script>
+</body>
+</html>
