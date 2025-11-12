@@ -1,0 +1,52 @@
+Kolonisatie van de Deleya – Starting a peacefull life away from the Empire.
+
+
+
+Prinses Leia Organa, leidster van de rebellion, wil na het opblazen van de thuisplaneet Alderaan de overlevers een nieuwe woonplaneet geven. Hiervoor is het oog gevallen op de planeet Deleya, een lege planeet in hetzelfde systeem als Alderaan.
+
+
+Na het voorval met de kus van Luke Skywalker, die achteraf haar broer bleek te zijn, vindt Leia het enorm belangrijk dat inteelt, bewust of onbewust wordt voorkomen. Zij wil dat er dus een bevolkingsregister met databases komt, waarbij burgers worden ingeschreven, en die bijhoudt of er sprake is van inteelt.
+
+
+Overzicht van eisen:
+
+1. Bevolkingsregistratie
+
+· Ambtenaren kunnen nieuwe inwoners invoeren via een webpagina.
+
+· Burgers kunnen hun eigen gegevens bekijken en bijwerken.
+
+· Alle data wordt opgeslagen in een database.
+
+
+2. Zoekfunctie
+
+· Burgers kunnen zoeken op naam, ID, of familieverband.
+
+· Resultaten worden overzichtelijk weergegeven in een lijst of kaarten.
+
+
+4. Inteeltanalyse bij huwelijk
+
+· Bij een voorgenomen huwelijk berekent het systeem het inteeltpercentage.
+
+Ambtenaren kunnen op basis van deze data besluiten of het huwelijk ethisch en genetisch verantwoord is.
+
+
+3. Stamboomvisualisatie
+
+· Inwoners kunnen hun familiegeschiedenis visueel bekijken.
+
+· De stamboom toont generaties, relaties en afkomst — essentieel voor het behoud van cultuur.
+
+
+5. Testen en documentatie
+
+· Alle onderdelen worden grondig getest.
+
+· Documentatie wordt opgesteld voor toekomstige generaties en technici.
+
+
+Leia’s afsluitende woorden
+
+"Delaya is meer dan een nieuwe thuis. Het is onze kans om een samenleving te bouwen die transparant, verbonden en rechtvaardig is. Laat technologie ons helpen om onze geschiedenis te bewaren en onze toekomst te beschermen. May the SQL be with us"

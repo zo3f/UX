@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.8">
+  <diagram name="Pagina-1" id="GU4Qaqeg4OSqWCixEkoV">
+    <mxGraphModel dx="1418" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="95Po1B2b2pfxFMe5JRRs-1" value="Burger" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="95Po1B2b2pfxFMe5JRRs-2" value="+BSN (PK)&lt;br&gt;+Voornaam&lt;br&gt;+Achternaam&lt;div&gt;+Geboortedatum&lt;/div&gt;&lt;div&gt;+Geslacht&lt;/div&gt;&lt;div&gt;+Adres_code (FK)&lt;/div&gt;&lt;div&gt;+Email&lt;/div&gt;&lt;div&gt;+Registratiecode&lt;/div&gt;&lt;div&gt;+Status&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="95Po1B2b2pfxFMe5JRRs-1" vertex="1">
+          <mxGeometry y="50" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D2GwZh0IJap4YSoPVm8d-1" value="Adres" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="D2GwZh0IJap4YSoPVm8d-2" value="+Adres_code (PK)&lt;br&gt;+Straat&lt;br&gt;+Huisnummer&lt;div&gt;+Postcode&lt;/div&gt;&lt;div&gt;+Plaats&lt;/div&gt;&lt;div&gt;+Provincie&lt;/div&gt;&lt;div&gt;+Land&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="D2GwZh0IJap4YSoPVm8d-1">
+          <mxGeometry y="50" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D2GwZh0IJap4YSoPVm8d-3" value="Gebruiker" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="D2GwZh0IJap4YSoPVm8d-4" value="+Gebruiker_code (PK)&lt;br&gt;+Gebruikersnaam&lt;br&gt;+Wachtwoord&lt;div&gt;+Rol&lt;/div&gt;&lt;div&gt;+BSN (FK)&lt;/div&gt;&lt;div&gt;+Ambtenaar_code (FK)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="D2GwZh0IJap4YSoPVm8d-3">
+          <mxGeometry y="50" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D2GwZh0IJap4YSoPVm8d-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="D2GwZh0IJap4YSoPVm8d-5" target="D2GwZh0IJap4YSoPVm8d-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2GwZh0IJap4YSoPVm8d-5" value="Ambtenaar" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="530" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="D2GwZh0IJap4YSoPVm8d-6" value="+Ambtenaar_code (PK)&lt;br&gt;+Voornaam&lt;br&gt;+Achternaam&lt;div&gt;+Functie&lt;/div&gt;&lt;div&gt;+Afdeling&lt;/div&gt;&lt;div&gt;+Email&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="D2GwZh0IJap4YSoPVm8d-5">
+          <mxGeometry y="50" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D2GwZh0IJap4YSoPVm8d-7" value="Logboek" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="D2GwZh0IJap4YSoPVm8d-8" value="+Log_code&lt;br&gt;+Gebruiker_code (FK)&lt;br&gt;+Actie&lt;div&gt;+Datum_Tijdstip&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="D2GwZh0IJap4YSoPVm8d-7">
+          <mxGeometry y="50" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D2GwZh0IJap4YSoPVm8d-9" value="Relaties" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="510" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="D2GwZh0IJap4YSoPVm8d-10" value="+Relatie_code&lt;br&gt;+Burger_1_code (FK)&lt;div&gt;+Burger_2_code (FK)&lt;br&gt;+Relatie_soort&lt;/div&gt;&lt;div&gt;+Start_datum&lt;/div&gt;&lt;div&gt;+Eind_datum&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="D2GwZh0IJap4YSoPVm8d-9">
+          <mxGeometry y="50" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="D2GwZh0IJap4YSoPVm8d-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="95Po1B2b2pfxFMe5JRRs-1" target="D2GwZh0IJap4YSoPVm8d-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2GwZh0IJap4YSoPVm8d-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="95Po1B2b2pfxFMe5JRRs-2" target="D2GwZh0IJap4YSoPVm8d-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D2GwZh0IJap4YSoPVm8d-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="D2GwZh0IJap4YSoPVm8d-4" target="D2GwZh0IJap4YSoPVm8d-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
