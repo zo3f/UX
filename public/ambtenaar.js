@@ -38,6 +38,14 @@ form.addEventListener('submit', e => {
   const formData = new FormData(form);
   const data = Object.fromEntries(formData.entries());
 
+  // DNA validatie
+  const dnaCode = data.DNA_code.toUpperCase(); // Zet om naar hoofdletters
+  if (!/^[A-F]{1,4}$/.test(dnaCode)) {
+    alert('DNA-code mag alleen hoofdletters A-F bevatten en maximaal 4 tekens lang zijn');
+    return;
+  }
+  data.DNA_code = dnaCode; // Update met hoofdletters
+
   fetch('/api/burgers', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
